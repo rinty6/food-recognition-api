@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "epoch": 32,
+  "loss": 1.162064,
+  "accuracy": 0.909719,
+  "top5_accuracy": 0.985264,
+  "lr": 8.646198293969952e-05,
+  "batch_size": 32,
+  "samples_seen": 60600,
+  "epoch_duration_seconds": 180.0,
+  "timestamp": "2026-05-02T11:14:57"
+}

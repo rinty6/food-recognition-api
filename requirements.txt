@@ -1,0 +1,30 @@
+# Core ML
+# CUDA 12.8 builds. Keep these pinned so production does not install CPU-only torch.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+
+# Data & training utilities
+numpy>=1.24.0
+Pillow>=10.0.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# API serving
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+pydantic>=2.5.0
+
+# ONNX optimization
+onnx>=1.15.0
+onnxruntime>=1.17.0
+onnxscript>=0.1.0
+
+# HTTP client for FatSecret calls
+httpx>=0.27.0
+
+# Environment config
+python-dotenv>=1.0.0

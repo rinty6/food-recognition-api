@@ -1,0 +1,62 @@
+{
+  "phase": 1,
+  "model_architecture": "resnet18",
+  "num_classes": 5,
+  "test_accuracy": 0.9392,
+  "test_top5_accuracy": 1.0,
+  "test_loss": null,
+  "total_test_samples": 1250,
+  "evaluated_at": "2026-05-01T23:41:58",
+  "per_class": {
+    "ice_cream": {
+      "precision": 0.9388,
+      "recall": 0.92,
+      "f1": 0.9293,
+      "support": 250,
+      "confused_with": [
+        "pancakes",
+        "waffles"
+      ]
+    },
+    "pancakes": {
+      "precision": 0.9209,
+      "recall": 0.932,
+      "f1": 0.9264,
+      "support": 250,
+      "confused_with": [
+        "waffles",
+        "ice_cream"
+      ]
+    },
+    "pizza": {
+      "precision": 0.9572,
+      "recall": 0.984,
+      "f1": 0.9704,
+      "support": 250,
+      "confused_with": [
+        "waffles",
+        "pancakes"
+      ]
+    },
+    "sushi": {
+      "precision": 0.9789,
+      "recall": 0.928,
+      "f1": 0.9528,
+      "support": 250,
+      "confused_with": [
+        "waffles",
+        "ice_cream"
+      ]
+    },
+    "waffles": {
+      "precision": 0.9031,
+      "recall": 0.932,
+      "f1": 0.9173,
+      "support": 250,
+      "confused_with": [
+        "pancakes",
+        "pizza"
+      ]
+    }
+  }
+}

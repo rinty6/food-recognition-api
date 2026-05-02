@@ -1,0 +1,3752 @@
+[
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\329302.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3018454.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2137341.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\269396.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1980167.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\747453.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\547281.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1839769.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2813454.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\737630.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\123506.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\503640.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\90596.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\87930.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2667244.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2820287.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3264148.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\97567.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1663749.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\618021.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1008844.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2580309.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1574431.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3294525.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\43069.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1131482.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3678290.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\77209.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\806395.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2490163.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3732820.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2577377.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1098197.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3804697.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2295454.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\792093.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2021281.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3391208.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3675128.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2700543.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\904938.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1540934.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1384464.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3184993.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1325307.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\60308.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\382829.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\717350.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\531515.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\812349.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1107714.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2149365.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3490755.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3482107.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\476199.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\19487.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1688078.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2541727.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1547580.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2156885.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2370529.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\976382.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1257019.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2637177.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2527617.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2603437.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\23449.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2005627.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3574192.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3361899.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1770663.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\389519.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\14484.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3534162.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\407213.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\951093.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3809264.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1353336.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\32666.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\885452.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3146985.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3159868.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1959332.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\33801.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3043682.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\964749.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\583540.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3226494.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\6312.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3055697.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2326812.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\339645.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1183866.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1110966.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2256315.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2239580.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2006225.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\219246.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\998971.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1058864.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3822139.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1203008.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\966644.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3193967.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\920703.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\920725.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\383439.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2948069.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\83538.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1113170.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1752577.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1555144.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2693258.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1873888.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3191504.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3465704.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\925421.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\358264.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1157438.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1445875.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\77677.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1564248.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1862302.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\141507.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3020577.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\87187.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2868295.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2570329.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3140054.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2249077.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\179004.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2407074.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2497492.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1779883.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1458928.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2839865.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1259334.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1231639.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\598638.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\987631.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2120484.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3281494.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2392474.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3548871.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\38958.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\714991.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1635386.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2134732.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3373227.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\300869.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2957874.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1028113.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2911408.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\310725.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\245977.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1613878.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\306036.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1434368.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\355571.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2166979.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\672863.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\575058.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2603698.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\180239.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2248129.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\945662.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\629824.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\477126.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1220727.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3554287.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2267408.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\668944.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\697662.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\73265.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\739735.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\958929.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2058733.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3041237.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3622628.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\104465.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3187124.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\122080.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2531838.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1118505.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1981348.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3472927.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2492146.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2355834.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1209973.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\868789.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3344726.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\831385.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\508912.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2738886.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\498671.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1584379.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3209670.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\689096.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\166134.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1617432.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2225554.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3175000.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\704161.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2035248.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3855881.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\85516.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\20378.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3421968.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\561769.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1378182.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1793231.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\717811.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3027536.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2298224.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1351146.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\725512.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2587918.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2671508.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1343456.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2913803.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\630974.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2215668.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2972841.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3839247.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3888429.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\166435.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1452225.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3076469.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\37284.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2644728.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2458209.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\767700.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\12564.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\878377.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2569760.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\234799.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2049021.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1025041.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1710850.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2100143.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1330061.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2390448.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\307716.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3472464.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3629344.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\20588.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2702825.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1646170.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2928608.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\765799.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3854229.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1705773.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2247362.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2871136.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2221629.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\731414.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3395343.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2922019.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2015807.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1437266.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\319629.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3377501.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3785474.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3716954.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2494775.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\790528.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2080558.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\228778.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1108996.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\325540.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2801870.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1644742.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1754536.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\929067.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1303005.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2142812.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2149816.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1898723.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2577373.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1371398.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2706138.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2602611.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\360059.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\678912.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1377375.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1510496.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3297297.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1593765.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\507537.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\642172.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2919768.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\29618.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\582998.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3879262.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2438557.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1774439.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2609858.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3861475.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2934699.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1431592.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\774887.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1559298.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2953950.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3554365.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3413820.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\566853.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2683305.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1371104.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\806679.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2236282.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3157863.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\678288.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3401767.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\287000.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1320836.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\358178.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\995085.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3387082.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2643240.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3314176.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\568383.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\13983.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\232976.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1852541.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\692632.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3305807.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\982668.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1018252.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\575321.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\340993.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3838718.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2299817.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3770139.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3766053.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2384135.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2957199.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2751977.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1578438.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3127072.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\204423.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1238583.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3326344.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\271779.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3091708.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2519291.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1121757.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1875841.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1639310.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1397605.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\401345.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2118216.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\688994.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\312479.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2143304.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2990023.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\393658.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\331460.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3693597.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2570036.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3360207.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1775490.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\767801.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3659207.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2126352.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3220321.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3537408.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3809124.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\282039.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1386325.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2038553.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\975816.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\310820.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2992084.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\327928.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2476468.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3231443.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3324642.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2689765.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1512103.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3197495.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1314535.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3693710.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\253127.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\237800.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\127462.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2752791.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\261329.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1412702.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2574896.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\572735.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\362451.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1116896.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1878005.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\844744.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1232051.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1310849.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\819966.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3081538.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1026922.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\311206.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1997049.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1961724.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\52934.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2244833.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\572148.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3380124.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\909342.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1590090.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1629066.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\268990.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2428085.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3322162.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1854061.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2303453.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1456899.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3742272.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2279642.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\777619.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\96935.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3771848.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\723084.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2797464.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1744371.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\418321.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\307677.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\813698.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1698064.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\150162.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2321465.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\114592.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3276602.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2169966.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3196721.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1588531.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3752380.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2579613.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2441328.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2619752.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\401979.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2781990.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2175561.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3740961.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1935257.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\596317.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3375443.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3218663.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\342167.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\472323.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\520878.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\441550.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1404080.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2272756.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1930318.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3351163.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\456718.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1644641.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\13252.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2877565.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2091857.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2781056.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2849945.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\128941.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3830773.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2036809.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2975399.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2121603.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2811169.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1297205.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3005557.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3572362.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2711828.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2235981.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1143057.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1792568.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1389829.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\692180.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3005365.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2462190.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2402418.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\83395.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\799874.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2240762.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1606698.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\702165.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2885050.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1427986.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\797266.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2500558.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3548615.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2623508.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1335316.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3772059.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3367113.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1077952.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2508726.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1165451.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2502062.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\815302.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\363070.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\910435.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3337386.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\422863.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1871498.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2786790.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2723879.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1269020.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\635997.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1659155.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\514090.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2809528.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\101858.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2451878.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2137477.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\68212.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2933428.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\198961.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2096098.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2202881.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\190452.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\240613.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\44449.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3467289.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3810015.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\551174.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1093239.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2292674.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3530210.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3608975.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\326627.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3388735.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1035715.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\631683.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1296836.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3888417.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\473675.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1324254.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\539425.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\101450.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\243400.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3668363.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\401374.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\705208.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2681437.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3681024.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3505352.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1593835.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2304021.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\844642.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3628275.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\652353.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1669463.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2761676.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3879074.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3396769.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1060699.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2333159.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\38349.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3588752.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\321832.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1571146.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2752957.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\191064.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3416346.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3829433.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\996926.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\131250.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2723529.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1174687.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\629359.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1996975.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\918506.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\361892.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3214424.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2443482.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2170604.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\351972.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1170327.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3313617.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1348984.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\497819.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1426781.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3096264.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\169720.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\790841.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1453227.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2001070.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\667162.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\248999.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\312565.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3820519.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\807128.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3086867.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1632761.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1558430.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3870836.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1494740.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1159797.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\441504.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\387697.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3918417.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1515356.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2072164.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\300722.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2135176.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1954378.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1123229.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\704859.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3135867.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1504719.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\501446.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\697142.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1620761.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1287004.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3062041.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3401720.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2605343.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1075568.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2740717.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3712570.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3253682.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\651783.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\635425.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3622195.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3839051.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1542851.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\918359.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\853441.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3630702.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\857744.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\729861.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1531389.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1430889.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3817299.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\395034.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\589177.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\616055.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\768721.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1814644.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\938689.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\748830.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\380699.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2285942.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1986263.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\306078.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2126709.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3249068.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1456550.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2464652.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1889533.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3798683.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1844971.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\508124.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2035448.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\803915.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3023774.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\875856.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1893599.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\47909.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1714901.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2167465.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1795316.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\257014.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2161241.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2676468.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2036680.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2665322.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3819800.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2128139.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3036492.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1974908.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1950591.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1795168.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3660716.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\778502.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3194781.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1475500.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\390178.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\38337.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2631117.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1054420.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2954396.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\358502.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\101644.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1226714.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\301950.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\806461.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\238843.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3316916.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2297483.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1174196.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\2793535.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1735837.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1210007.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1954998.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\193950.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1674187.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2480174.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1958364.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1778167.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1977776.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\3392671.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\692436.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1643631.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\128556.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3010128.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1831661.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\364994.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1521825.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2810256.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\653405.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3181171.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2033804.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\1647985.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\1534272.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\2575514.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\872094.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\3107839.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\45067.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2318945.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\489532.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\2152906.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\140031.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\116769.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1369628.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2998694.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3067533.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\551528.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3171646.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\waffles\\3044407.jpg",
+    "label": 4,
+    "class_name": "waffles"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1964051.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3128790.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\317515.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\220190.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2226454.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\63878.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\506670.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3606472.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\2174620.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\959901.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\1164.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\1769465.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3299559.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\990387.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\143996.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\sushi\\45516.jpg",
+    "label": 3,
+    "class_name": "sushi"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\3400004.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pancakes\\3540299.jpg",
+    "label": 1,
+    "class_name": "pancakes"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1593665.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\pizza\\1652943.jpg",
+    "label": 2,
+    "class_name": "pizza"
+  },
+  {
+    "path": "C:\\Users\\kanep\\Downloads\\meal_planning_app\\food_recognition\\data\\food-101\\food-101\\images\\ice_cream\\2303473.jpg",
+    "label": 0,
+    "class_name": "ice_cream"
+  }
+]

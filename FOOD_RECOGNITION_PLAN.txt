@@ -1,0 +1,1034 @@
+================================================================================
+  FOOD RECOGNITION MODEL — COMPLETE ENGINEERING PLAN
+  Meal Planning App | From Development to Production
+  Last Updated: 2026-04-29
+================================================================================
+
+TABLE OF CONTENTS
+─────────────────
+  0.  Hardware & Environment Overview
+  1.  Project Directory Structure
+  2.  Phase 1 — Data Engineering & Baseline Model (5 Classes)
+  3.  Phase 2 — Full-Scale Training (101 Classes)
+  4.  Phase 3 — FastAPI Model Serving Layer
+  5.  Phase 4 — Deployment Strategy & Service Recommendations
+  6.  Phase 5 — Mobile Integration (React Native)
+  7.  Phase 6 — Production Monitoring & Active Learning
+  8.  Results Folder Schema & Chart Specification
+  9.  Dependencies & Requirements Reference
+  10. Decision Log (Why We Chose X Over Y)
+
+================================================================================
+  0. HARDWARE & ENVIRONMENT OVERVIEW
+================================================================================
+
+YOUR LOCAL MACHINE (Training & Development)
+────────────────────────────────────────────
+  CPU  : Intel Core i5-13500HX, 20 logical cores @ ~2.5GHz (13th Gen)
+  RAM  : 16 GB DDR5
+  GPU  : NVIDIA GeForce RTX 4050 Laptop GPU — 6 GB GDDR6 VRAM  ← USE THIS
+  OS   : Windows 11
+  Shell: Use Git Bash or WSL2 for all Python/training commands
+
+GPU CAPABILITY ASSESSMENT
+──────────────────────────
+  RTX 4050 (6 GB VRAM) comfortably handles:
+    - Phase 1: ResNet-18, 5-class, batch=32     → ~5 min/epoch
+    - Phase 2: ResNet-50, 101-class, batch=32   → ~25-40 min/epoch
+    - Phase 2: MobileNetV2, 101-class, batch=64 → ~15-20 min/epoch
+
+  VRAM budget breakdown for ResNet-50 (batch=32, 224×224):
+    Model weights  : ~100 MB
+    Activations    : ~1.2 GB
+    Gradients      : ~1.2 GB
+    Data buffer    : ~300 MB
+    Total estimate : ~2.8 GB  → well within 6 GB
+
+  VRAM budget breakdown for MobileNetV2 (batch=64, 224×224):
+    Model + grads  : ~600 MB
+    Activations    : ~1.4 GB
+    Total estimate : ~2.0 GB  → safe headroom for data workers
+
+  RECOMMENDATION: Train ResNet-50 locally on your RTX 4050.
+  Do NOT use Google Colab unless your local GPU fails or you need more than
+  6 GB VRAM (e.g., EfficientNet-B4+ at large batch sizes).
+
+CLOUD SERVICES IN USE
+─────────────────────
+  Backend   : Railway (Hobby Plan) — Node.js / Express
+  ML Service: Railway (Hobby Plan) — Python / Flask (recommendation engine)
+  Frontend  : Expo EAS (awaiting Apple membership)
+  Database  : Neon PostgreSQL (via Railway backend)
+
+================================================================================
+  1. PROJECT DIRECTORY STRUCTURE
+================================================================================
+
+  food_recognition/
+  ├── FOOD_RECOGNITION_PLAN.txt       ← this file
+  ├── requirements.txt                ← Python deps for this module only
+  ├── resources/
+  │   └── Building a Food Recognition Model.pdf
+  │
+  ├── data/
+  │   ├── download_food101.py         ← script to download Food-101 via torchvision
+  │   ├── split_dataset.py            ← stratified train/val split from official train.txt
+  │   └── food-101/                   ← downloaded dataset (do NOT commit — ~5 GB)
+  │       ├── images/                 ← 101 folders, 1000 images each
+  │       └── meta/
+  │           ├── train.txt           ← official 750-per-class training split
+  │           ├── test.txt            ← official 250-per-class test split (keep isolated)
+  │           └── classes.txt
+  │
+  ├── models/
+  │   ├── baseline_resnet18.py        ← Phase 1: 5-class model definition
+  │   ├── resnet50_food101.py         ← Phase 2: full 101-class model
+  │   └── checkpoints/               ← saved .pth files (do NOT commit — large)
+  │       ├── phase1_best.pth
+  │       └── phase2_best.pth
+  │
+  ├── train/
+  │   ├── train_phase1.py             ← Phase 1 training script
+  │   ├── train_phase2.py             ← Phase 2 training script
+  │   ├── dataset.py                  ← PyTorch Dataset class + augmentation pipeline
+  │   ├── transforms.py               ← preprocessing / augmentation definitions
+  │   └── utils.py                    ← checkpoint save/load, metric helpers
+  │
+  ├── evaluate/
+  │   ├── evaluate_model.py           ← runs model against test set, writes test_result/
+  │   └── confusion_matrix.py         ← per-class confusion matrix generator
+  │
+  ├── charts/
+  │   └── plot_results.py             ← reads all 3 result folders, generates charts
+  │
+  ├── api/
+  │   ├── main.py                     ← FastAPI app (Phase 3)
+  │   ├── predictor.py                ← loads model, runs inference, calls FatSecret
+  │   ├── schemas.py                  ← Pydantic request/response models
+  │   ├── ood_detector.py             ← Out-of-Distribution / Softmax threshold logic
+  │   └── Dockerfile                  ← container spec for Railway deployment
+  │
+  ├── training_result/                ← JSON files written during training (epoch data)
+  ├── validatation_result/            ← JSON files written during validation (epoch data)
+  └── test_result/                    ← JSON files written after final evaluation
+
+
+================================================================================
+  2. PHASE 1 — DATA ENGINEERING & BASELINE MODEL (5 CLASSES)
+================================================================================
+
+GOAL
+────
+  Prove the full pipeline end-to-end on a 5-class subset before committing to
+  the full 101-class training run. Target: >85% top-1 accuracy on validation.
+
+DURATION ESTIMATE (on RTX 4050)
+────────────────────────────────
+  Download Food-101     : 15-30 min (one-time, ~5 GB)
+  Split + verify        : 5 min
+  Training 20 epochs    : ~1.5-2 hours
+  Evaluation + charts   : 10 min
+
+STEP 1 — Install Python Environment
+─────────────────────────────────────
+  1. Install Python 3.11 (NOT 3.12 — some torch extensions lag behind).
+     Download from python.org, check "Add to PATH".
+
+  2. Install CUDA Toolkit 12.1 (matches PyTorch 2.x stable):
+     https://developer.nvidia.com/cuda-12-1-0-download-archive
+     Select: Windows → x86_64 → 11 → exe (local)
+
+  3. Create a virtual environment INSIDE food_recognition/:
+       cd meal_planning_app/food_recognition
+       python -m venv venv
+       venv\Scripts\activate          (Git Bash: source venv/Scripts/activate)
+
+  4. Install dependencies (see requirements.txt in Section 9):
+       pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+       pip install -r requirements.txt
+
+  5. Verify GPU is detected:
+       python -c "import torch; print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0))"
+     Expected output:
+       True
+       NVIDIA GeForce RTX 4050 Laptop GPU
+
+STEP 2 — Download Food-101 Dataset
+────────────────────────────────────
+  Create data/download_food101.py:
+
+  ┌──────────────────────────────────────────────────────────────────┐
+  │ import torchvision.datasets as datasets                          │
+  │ datasets.Food101(root='data/food-101', split='train',           │
+  │                  download=True)                                  │
+  │ datasets.Food101(root='data/food-101', split='test',            │
+  │                  download=True)                                  │
+  └──────────────────────────────────────────────────────────────────┘
+
+  Run:  python data/download_food101.py
+
+  IMPORTANT: Add data/food-101/ to .gitignore immediately.
+  Add models/checkpoints/ to .gitignore immediately.
+
+STEP 3 — Choose Your 5 Classes
+────────────────────────────────
+  Use this specific 5-class selection (chosen to test both easy and hard cases):
+
+    1. pizza          → visually distinct, high-contrast, large training signal
+    2. sushi          → visually distinct, fine-grained texture features
+    3. ice_cream      → distinctive color/shape
+    4. waffles        → grid texture, easy to confuse with pancakes
+    5. pancakes       → similar to waffles — tests model discrimination
+
+  WHY: classes 4 and 5 are intentionally similar. If your baseline can
+  distinguish them, it validates your augmentation and feature learning.
+
+STEP 4 — Implement the Dataset Class (train/dataset.py)
+─────────────────────────────────────────────────────────
+  Your Dataset class must:
+    - Accept a list of (image_path, class_index) tuples
+    - Apply different transforms for train vs val (no augmentation on val)
+    - Normalize with ImageNet stats: mean=[0.485, 0.456, 0.406],
+                                     std=[0.229, 0.224, 0.225]
+
+  Train transforms (in order):
+    1. RandomResizedCrop(224, scale=(0.7, 1.0))   ← simulates zoom/crop
+    2. RandomHorizontalFlip(p=0.5)
+    3. RandomVerticalFlip(p=0.2)                  ← less common but helps
+    4. RandomRotation(degrees=15)
+    5. ColorJitter(brightness=0.3, contrast=0.3, saturation=0.2)
+    6. ToTensor()
+    7. Normalize(mean, std)
+
+  Val/Test transforms (in order):
+    1. Resize(256)
+    2. CenterCrop(224)
+    3. ToTensor()
+    4. Normalize(mean, std)
+
+STEP 5 — Stratified Train/Val Split from Official Split
+─────────────────────────────────────────────────────────
+  Food-101 ships train.txt (750 images/class) and test.txt (250/class).
+  DO NOT touch test.txt during training. Instead:
+
+    - From the official train.txt (750 per class × 5 = 3,750 images):
+        Train : 600 per class (80%) = 3,000 images
+        Val   :  150 per class (20%) =   750 images
+    - Use sklearn.model_selection.StratifiedShuffleSplit to split.
+    - Set random_state=42 for reproducibility.
+
+  This preserves Food-101 benchmark comparability because the test split
+  (250 per class from test.txt) remains the official held-out set.
+
+STEP 6 — Build Baseline Model (models/baseline_resnet18.py)
+─────────────────────────────────────────────────────────────
+  Architecture:
+    - Load ResNet-18 with ImageNet pretrained weights
+    - FREEZE all convolutional layers
+    - Replace the final fc layer with: Linear(512, num_classes=5)
+    - Only train the new classification head for epochs 1–5
+    - UNFREEZE layer4 (the last residual block) for epochs 6–20 with LR × 0.1
+
+  Loss function : CrossEntropyLoss (no label smoothing yet — that is Phase 2)
+  Optimizer     : Adam(lr=1e-3) for head, Adam(lr=1e-4) for unfrozen layers
+  Scheduler     : ReduceLROnPlateau(patience=3, factor=0.5)
+  Batch size    : 32
+  Epochs        : 20
+  Early stopping: halt if val_loss does not improve for 5 consecutive epochs
+
+STEP 7 — Training Script (train/train_phase1.py)
+──────────────────────────────────────────────────
+  The training loop must write results to the result folders after EACH epoch.
+
+  After each epoch, write two files:
+    training_result/epoch_{N:03d}.json
+    validatation_result/epoch_{N:03d}.json
+
+  File schema (see Section 8 for full spec):
+    {
+      "epoch": 1,
+      "loss": 0.8234,
+      "accuracy": 0.7341,
+      "top5_accuracy": 0.9812,
+      "lr": 0.001,
+      "timestamp": "2026-04-29T14:23:01"
+    }
+
+  After training completes, save the best checkpoint:
+    models/checkpoints/phase1_best.pth
+    (save when val_accuracy improves — track best_val_acc)
+
+STEP 8 — Evaluation Script (evaluate/evaluate_model.py)
+─────────────────────────────────────────────────────────
+  Load the best checkpoint. Run against test.txt split (the 250-per-class
+  official test set filtered to your 5 classes).
+
+  Write to test_result/phase1_test_results.json:
+    {
+      "phase": 1,
+      "num_classes": 5,
+      "test_accuracy": 0.8920,
+      "test_top5_accuracy": 0.9960,
+      "per_class": {
+        "pizza":    {"precision": 0.91, "recall": 0.93, "f1": 0.92, "support": 250},
+        "sushi":    {"precision": 0.89, "recall": 0.87, "f1": 0.88, "support": 250},
+        ...
+      }
+    }
+
+STEP 9 — Chart Generation (charts/plot_results.py)
+────────────────────────────────────────────────────
+  Run AFTER training completes. Reads all JSON files from training_result/
+  and validatation_result/ and produces 4 charts saved as PNG files:
+
+    charts/output/phase1_loss_curve.png
+    charts/output/phase1_accuracy_curve.png
+    charts/output/phase1_lr_curve.png
+    charts/output/phase1_per_class_f1.png
+
+  Chart 1 — Loss Curve:
+    X-axis: Epoch number
+    Y-axis: Loss value
+    Two lines: Training Loss (blue) + Validation Loss (orange)
+    Annotations: mark the epoch where early stopping triggered (if applicable)
+
+  Chart 2 — Accuracy Curve:
+    X-axis: Epoch number
+    Y-axis: Accuracy (0–1)
+    Two lines: Training Accuracy (blue) + Validation Accuracy (orange)
+    Mark the best validation accuracy with a green star marker
+
+  Chart 3 — Learning Rate Curve:
+    X-axis: Epoch number
+    Y-axis: Learning rate (log scale)
+    One line showing how ReduceLROnPlateau adjusted the LR over time
+
+  Chart 4 — Per-Class F1 Score (bar chart):
+    X-axis: Class names
+    Y-axis: F1 score (0–1)
+    Color-coded bars. Red dashed line at F1=0.80 as "acceptable" threshold.
+    Generated from test_result/phase1_test_results.json
+
+  Run command:  python charts/plot_results.py --phase 1
+
+PHASE 1 SUCCESS CRITERIA
+─────────────────────────
+  ✓ GPU is detected and used during training (confirm with nvidia-smi)
+  ✓ All 20 epochs complete without OOM errors
+  ✓ Validation accuracy > 85% on the 5-class subset
+  ✓ waffles vs pancakes F1 score both > 0.75 (the hard pair)
+  ✓ All 3 result folders contain epoch JSON files
+  ✓ All 4 charts generated successfully
+  ✓ No data from test.txt was used during training
+
+
+================================================================================
+  3. PHASE 2 — FULL-SCALE TRAINING (101 CLASSES)
+================================================================================
+
+GOAL
+────
+  Scale to all 101 Food-101 classes using ResNet-50 (primary) and MobileNetV2
+  (secondary, for mobile deployment). Target: >80% top-1 accuracy on the
+  official test set (matching published ResNet-50 benchmarks).
+
+DURATION ESTIMATE (on RTX 4050, RTX 4050 = ~6 GB VRAM)
+─────────────────────────────────────────────────────────
+  Full dataset split  : 10 min
+  ResNet-50 training  : ~30-40 min/epoch × 30-50 epochs = 15-33 hours total
+  MobileNetV2 training: ~15-20 min/epoch × 30 epochs = 7-10 hours total
+
+  STRATEGY: Run overnight. Use a training script that saves checkpoints every
+  5 epochs so you never lose more than 5 epochs of work.
+
+  ALTERNATIVE if you want faster iteration: Use Google Colab Pro ($10/month)
+  with an A100 GPU — reduces ResNet-50 epoch time to ~4-5 minutes.
+  But your RTX 4050 is sufficient; just start training before sleeping.
+
+STEP 1 — Full Stratified Split (101 classes)
+──────────────────────────────────────────────
+  Same logic as Phase 1 but across all 101 classes:
+    From official train.txt (750 × 101 = 75,750 images):
+      Train : 600/class (80%) = 60,600 images
+      Val   : 150/class (20%) = 15,150 images
+    Test  : official test.txt (250 × 101 = 25,250 images) — untouched
+
+STEP 2 — ResNet-50 Architecture
+─────────────────────────────────
+  Architecture:
+    - Load ResNet-50 with ImageNet pretrained weights
+    - FREEZE all layers
+    - Replace fc with: Linear(2048 → 512) → ReLU → Dropout(0.4) →
+                       Linear(512 → 101)
+    - Training strategy (discriminative fine-tuning in 3 stages):
+
+    Stage A (Epochs 1–10):
+      Freeze entire convolutional base.
+      Train classification head only.
+      LR = 1e-3, batch = 32.
+
+    Stage B (Epochs 11–25):
+      Unfreeze layer4 (last residual block).
+      Train head + layer4.
+      LR_head = 1e-3, LR_layer4 = 1e-4.
+
+    Stage C (Epochs 26–50):
+      Unfreeze layer3 + layer4.
+      LR_head = 1e-3, LR_layer3 = 5e-5, LR_layer4 = 1e-4.
+      Introduce Label Smoothing: CrossEntropyLoss(label_smoothing=0.1)
+
+  Scheduler: CosineAnnealingLR (T_max = epochs per stage, eta_min = 1e-6)
+  Gradient clipping: max_norm=1.0 (prevents gradient explosion during unfreeze)
+  Mixed precision: torch.cuda.amp.autocast() — saves ~40% VRAM, 30% faster
+
+STEP 3 — MobileNetV2 Architecture (mobile deployment target)
+──────────────────────────────────────────────────────────────
+  Architecture:
+    - Load MobileNetV2 with ImageNet pretrained weights
+    - Replace classifier with: Dropout(0.2) → Linear(1280 → 101)
+    - Unfreeze all layers from epoch 1 (MobileNetV2 is already lightweight)
+    - LR = 5e-4, batch = 64, epochs = 30
+    - Use same label smoothing + cosine schedule as ResNet-50 Stage C
+
+  Why train both?
+    ResNet-50 → for server-side API inference (Railway deployment)
+    MobileNetV2 → potentially for on-device inference in the React Native app
+                  via react-native-fast-pytorch or TFLite conversion
+
+STEP 4 — Checkpoint Strategy
+──────────────────────────────
+  Save checkpoints:
+    models/checkpoints/phase2_resnet50_epoch_{N:03d}.pth  (every 5 epochs)
+    models/checkpoints/phase2_resnet50_best.pth            (best val accuracy)
+    models/checkpoints/phase2_mobilenetv2_best.pth
+
+  Checkpoint file contains:
+    {
+      "epoch": N,
+      "model_state_dict": ...,
+      "optimizer_state_dict": ...,
+      "val_accuracy": 0.8123,
+      "val_loss": 0.6234,
+      "config": { "architecture": "resnet50", "num_classes": 101 }
+    }
+
+  Why save optimizer state? Allows resuming training from exact same optimizer
+  momentum state if your laptop loses power or you need to pause.
+
+  Resume command:  python train/train_phase2.py --resume models/checkpoints/phase2_resnet50_epoch_025.pth
+
+STEP 5 — Out-of-Distribution (OOD) Detection
+──────────────────────────────────────────────
+  After full training, calibrate the confidence threshold:
+
+  Method: Softmax thresholding (simplest, production-proven)
+    - Run the trained model on 500 non-food images (download ImageNet subset of
+      "vehicles", "animals", "furniture" — ~100 images each)
+    - Find the threshold T where:
+        True Rejection Rate (non-food correctly rejected) > 95%
+        False Rejection Rate (real food incorrectly rejected) < 5%
+    - Expected T ≈ 0.65–0.80 based on the PDF recommendation of 0.75
+
+  Save calibrated threshold to:
+    models/ood_threshold.json: { "threshold": 0.72, "calibrated_on": "500 non-food images" }
+
+  In production (api/ood_detector.py):
+    If max(softmax_output) < threshold:
+      Return {"status": "unknown", "message": "Image not recognized as food.
+              Please select manually.", "top5_candidates": [...]}
+
+STEP 6 — Write Phase 2 Result Files
+─────────────────────────────────────
+  Same schema as Phase 1 but filenames prefixed with "phase2_":
+    training_result/phase2_epoch_{N:03d}.json
+    validatation_result/phase2_epoch_{N:03d}.json
+    test_result/phase2_test_results.json   ← after final evaluation
+
+STEP 7 — Phase 2 Charts
+─────────────────────────
+    charts/output/phase2_loss_curve.png
+    charts/output/phase2_accuracy_curve.png
+    charts/output/phase2_top5_accuracy_curve.png  ← add top-5 for 101 classes
+    charts/output/phase2_lr_curve.png
+    charts/output/phase2_per_class_f1_heatmap.png ← heatmap better than bar for 101
+    charts/output/phase2_confusion_matrix_top20.png ← top 20 most confused pairs
+
+  Run command:  python charts/plot_results.py --phase 2
+
+PHASE 2 SUCCESS CRITERIA
+─────────────────────────
+  ✓ ResNet-50 top-1 accuracy on test set > 80%
+  ✓ ResNet-50 top-5 accuracy on test set > 95%
+  ✓ OOD threshold calibrated (non-food rejection rate > 95%)
+  ✓ No single class has F1 < 0.50 (investigate and flag for Phase 6)
+  ✓ Training did not OOM — if it does, reduce batch size to 16 first
+
+
+================================================================================
+  4. PHASE 3 — FASTAPI MODEL SERVING LAYER
+================================================================================
+
+GOAL
+────
+  Expose the trained model as a REST API endpoint that the existing
+  Node.js backend (Railway) can call. Mirror the structure of the existing
+  Flask app in machine_learning/ but use FastAPI for async performance.
+
+ARCHITECTURE
+────────────
+  React Native App
+       │  POST /upload-image (base64 or multipart/form-data)
+       ▼
+  Node.js Backend (Railway)         ← existing service, no changes needed
+       │  POST /api/food-recognition/predict
+       ▼
+  FastAPI Food Recognition Service  ← NEW — food_recognition/api/main.py
+       │  1. Decode & preprocess image
+       │  2. Run CNN forward pass → top-5 predictions + confidence scores
+       │  3. OOD check (reject if max_softmax < threshold)
+       │  4. Call FatSecret foods.search.v3 with predicted label
+       │  5. Call FatSecret food.get.v4 with confirmed food_id
+       ▼
+  Return nutritional JSON to backend → backend returns to app
+
+STEP 1 — FastAPI App (api/main.py)
+────────────────────────────────────
+  Endpoints:
+    POST /predict
+      Input : multipart image file OR base64 encoded JPEG/PNG (max 10 MB)
+      Output: {
+        "status": "success" | "unknown" | "error",
+        "prediction": {
+          "label": "pizza",
+          "confidence": 0.9234,
+          "top5": [
+            {"label": "pizza",     "confidence": 0.9234},
+            {"label": "calzone",   "confidence": 0.0412},
+            {"label": "flatbread", "confidence": 0.0198},
+            ...
+          ]
+        },
+        "nutrition": {
+          "food_id": "33691",
+          "food_name": "Pizza",
+          "calories": 266,
+          "protein": 11.0,
+          "carbohydrates": 33.0,
+          "fat": 10.0
+        }
+      }
+
+    GET /health
+      Output: { "status": "ok", "model_loaded": true, "model_version": "phase2_resnet50" }
+
+    GET /classes
+      Output: { "classes": ["apple_pie", "baby_back_ribs", ...] }  ← all 101 class names
+
+STEP 2 — Predictor Class (api/predictor.py)
+────────────────────────────────────────────
+  - Load model ONCE at startup using FastAPI lifespan events (not on every request)
+  - Cache model in memory — do not reload per request
+  - Use torch.inference_mode() for all forward passes (faster than no_grad)
+  - Target inference time: < 300ms on CPU (Railway has no GPU)
+
+  CPU inference note:
+    ResNet-50 on CPU takes ~150-400ms per image.
+    MobileNetV2 on CPU takes ~50-150ms per image.
+    RECOMMENDATION: Deploy MobileNetV2 on Railway for latency, keep ResNet-50
+    as local/research model. Or convert ResNet-50 to ONNX (see Section 5).
+
+STEP 3 — FatSecret Integration
+────────────────────────────────
+  Reuse the existing OAuth 2.0 logic from:
+    machine_learning/recommendation_engine/fatsecret.py
+
+  Do NOT rewrite it. Copy the relevant search/get functions into:
+    api/fatsecret_client.py
+
+  Call order:
+    1. foods.search.v3(q=predicted_label, max_results=5)
+    2. Select best food_id (prefer generic items over branded)
+    3. food.get.v4(food_id=selected_id)
+    4. Return macros: calories, protein, carbs, fat
+
+  Cache results in a local dict for 24 hours (per FatSecret ToS):
+    cache key = label string
+    cache value = { "food_id": ..., "nutrition": {...}, "cached_at": timestamp }
+    Invalidate if cached_at > 24 hours old
+
+STEP 4 — Dockerfile (api/Dockerfile)
+──────────────────────────────────────
+  FROM python:3.11-slim
+
+  WORKDIR /app
+
+  COPY requirements.txt .
+  RUN pip install --no-cache-dir -r requirements.txt
+
+  COPY models/checkpoints/phase2_mobilenetv2_best.pth ./models/
+  COPY models/food101_classes.json ./models/
+  COPY models/ood_threshold.json ./models/
+  COPY api/ ./api/
+
+  EXPOSE 8000
+  CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  IMPORTANT: The Docker image will be ~1.5–2 GB due to PyTorch CPU wheels.
+  Use python:3.11-slim (not full) and install torch CPU-only:
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+PHASE 3 SUCCESS CRITERIA
+─────────────────────────
+  ✓ POST /predict returns correct label for 10 manual test images
+  ✓ OOD path returns "unknown" for a photo of a car
+  ✓ /health endpoint returns 200 OK
+  ✓ Docker image builds successfully (docker build -t food-recognition .)
+  ✓ Container runs locally: docker run -p 8000:8000 food-recognition
+  ✓ Inference time < 500ms on your local CPU (simulates Railway CPU)
+
+
+================================================================================
+  5. PHASE 4 — DEPLOYMENT STRATEGY & SERVICE RECOMMENDATIONS
+================================================================================
+
+THE CORE PROBLEM
+────────────────
+  Railway Hobby Plan ($5 credit/month) gives each service:
+    - Up to 8 GB RAM (shared across all services)
+    - 100 GB outbound bandwidth
+    - No GPU
+
+  A PyTorch CPU container (FastAPI + MobileNetV2) requires:
+    - ~1.0–1.5 GB RAM (model in memory + FastAPI workers)
+    - This is feasible on Railway, but leaves little headroom if your
+      recommendation ML service also runs on the same plan
+
+DEPLOYMENT OPTIONS — RANKED BY FIT FOR YOUR STACK
+───────────────────────────────────────────────────
+
+  ★★★★★  OPTION A — Railway (new service, same project) [RECOMMENDED]
+  ────────────────────────────────────────────────────────────────────
+    Deploy the FastAPI food recognition container as a 3rd Railway service
+    alongside your existing backend and ML recommendation service.
+
+    Pros:
+      - Everything in one place (one dashboard, one billing)
+      - Automatic HTTPS, custom domains
+      - GitHub Actions CI/CD integration
+      - No new accounts or services to manage
+      - $5/month covers it if your usage is moderate
+
+    Cons:
+      - No GPU (CPU inference only — use MobileNetV2 to stay fast)
+      - All 3 services share the $5 credit pool
+
+    Deploy steps:
+      1. Push food_recognition/api/ + Dockerfile to GitHub
+      2. Create new Railway service → "Deploy from GitHub"
+      3. Set build context to food_recognition/
+      4. Set environment variables: FATSECRET_KEY, FATSECRET_SECRET
+      5. Railway auto-assigns a public URL: food-recognition.up.railway.app
+      6. Update backend to call this URL for /predict
+
+  ★★★★☆  OPTION B — Hugging Face Spaces (Free Tier)
+  ──────────────────────────────────────────────────
+    HF Spaces hosts ML model demos/APIs for free using Gradio or FastAPI.
+
+    Pros:
+      - Free (zero cost — no impact on Railway budget)
+      - Built for PyTorch models, first-class support
+      - 16 GB RAM on free CPU tier (more than Railway)
+      - Can upgrade to GPU ($0.60/hour T4) on-demand
+
+    Cons:
+      - Spaces sleep after 48h inactivity (free tier) — causes cold starts
+      - Less predictable latency vs Railway
+      - Slightly more complex deployment (HF-specific config)
+
+    RECOMMENDATION: Use HF Spaces as a fallback/staging environment.
+    Keep Railway for production.
+
+  ★★★☆☆  OPTION C — AWS EC2 t3.medium (CPU inference)
+  ──────────────────────────────────────────────────────
+    A general-purpose EC2 instance with 2 vCPUs, 4 GB RAM.
+
+    Pros:
+      - Predictable performance, no cold starts
+      - Full control over environment
+      - Can attach persistent EBS volume for model storage
+
+    Cons:
+      - ~$30–40/month (most expensive option here)
+      - Requires manual server management (nginx, SSL, etc.)
+      - Overkill for your current scale
+
+    RECOMMENDATION: Skip for now. Revisit if you outgrow Railway.
+
+  ★★★☆☆  OPTION D — AWS Lambda + API Gateway (Serverless)
+  ──────────────────────────────────────────────────────────
+    Event-driven serverless — pay only per invocation.
+
+    Pros:
+      - ~$0 at low traffic (first 1M requests/month free)
+      - No server management
+
+    Cons:
+      - Lambda has 250 MB code size limit (PyTorch alone is ~800 MB) →
+        must use Lambda container images (more complex)
+      - 3–8 second cold starts on infrequent use (catastrophic for UX)
+      - 15 minute max execution time (fine for inference)
+
+    RECOMMENDATION: Not suitable for this use case due to cold starts and
+    PyTorch container image complexity.
+
+  ★★★☆☆  OPTION E — Google Cloud Run (Serverless containers)
+  ─────────────────────────────────────────────────────────────
+    Similar to Lambda but with Docker containers and better cold start.
+
+    Pros:
+      - Pay per request
+      - $0 for first 2M requests/month (free tier)
+      - 4 GB RAM per container instance
+
+    Cons:
+      - Cold start: ~2–5 seconds for a PyTorch container
+      - More complex than Railway (need Google Cloud account, gcr.io registry)
+
+    RECOMMENDATION: Good secondary option if Railway Hobby plan becomes too
+    expensive. Use minimum-instances=1 to eliminate cold starts (~$5/month).
+
+TRAINING SERVICE RECOMMENDATIONS
+──────────────────────────────────
+  Phase 1 (5 classes, ~20 epochs): Your RTX 4050 locally — no cloud needed.
+
+  Phase 2 (101 classes, 30–50 epochs):
+    PRIMARY:  Your RTX 4050 locally — 6 GB VRAM is sufficient.
+              Expected total time: 15–33 hours (run overnight in 2–3 sessions).
+              Use --resume flag to continue from checkpoints.
+
+    FALLBACK: Google Colab Pro ($10/month, A100 GPU):
+              Expected total time: 2–4 hours.
+              Useful if your laptop is needed for other work.
+
+    CLOUD TRAINING (if you want dedicated GPU):
+      AWS SageMaker ml.g4dn.xlarge: ~$0.74/hour (T4 GPU, 16 GB VRAM)
+        Estimated cost: 6 hours × $0.74 = ~$4.50 total for full training
+      Google Colab Pro:  $10/month flat, 100 compute units
+        A100 costs ~3 units/hour → ~33 hours A100 per month
+
+FINAL DEPLOYMENT DECISION FOR YOUR STACK
+──────────────────────────────────────────
+  ┌───────────────────────────────────────────────────────────────────┐
+  │  Training          : Local RTX 4050 (primary)                     │
+  │                      Google Colab Pro (fallback)                  │
+  │                                                                   │
+  │  Model Serving     : Railway (new service in existing project)    │
+  │  Model             : MobileNetV2 (CPU-optimized for Railway)      │
+  │  Fallback/Staging  : Hugging Face Spaces (free)                  │
+  │                                                                   │
+  │  ONNX Optimization : Convert MobileNetV2 to ONNX format          │
+  │                      Reduces CPU inference from ~150ms to ~60ms  │
+  │                      Use: torch.onnx.export() → onnxruntime       │
+  └───────────────────────────────────────────────────────────────────┘
+
+ONNX CONVERSION STEP (do this after Phase 2 training)
+──────────────────────────────────────────────────────
+  python -c "
+  import torch
+  import torchvision.models as models
+
+  model = models.mobilenet_v2(num_classes=101)
+  model.load_state_dict(torch.load('models/checkpoints/phase2_mobilenetv2_best.pth')['model_state_dict'])
+  model.eval()
+
+  dummy_input = torch.randn(1, 3, 224, 224)
+  torch.onnx.export(
+      model, dummy_input,
+      'models/checkpoints/mobilenetv2_food101.onnx',
+      opset_version=17,
+      input_names=['image'],
+      output_names=['logits'],
+      dynamic_axes={'image': {0: 'batch'}}
+  )
+  print('ONNX export complete')
+  "
+
+  Then update api/predictor.py to use onnxruntime instead of PyTorch:
+    import onnxruntime as ort
+    session = ort.InferenceSession('models/mobilenetv2_food101.onnx')
+    outputs = session.run(['logits'], {'image': image_array})
+
+
+================================================================================
+  6. PHASE 5 — MOBILE INTEGRATION (REACT NATIVE)
+================================================================================
+
+GOAL
+────
+  Connect the existing camera UI in meal_app/components/addfoodmodal.tsx
+  to the new food recognition API endpoint.
+
+FLOW
+────
+  User taps camera button in AddFoodModal
+       │
+       ▼
+  expo-image-picker captures image
+       │
+       ▼
+  Compress image client-side (expo-image-manipulator)
+    - Resize to max 800×800 px
+    - JPEG quality 0.8
+    - Target file size < 500 KB (reduces API payload + latency)
+       │
+       ▼
+  POST to Node.js backend: /api/food-recognition/predict
+    - multipart/form-data with image file
+    - Authorization: Bearer {clerk_token}
+       │
+       ▼
+  Backend validates auth, forwards to FastAPI service
+       │
+       ▼
+  FastAPI returns { prediction, nutrition }
+       │
+       ▼
+  If status == "success":
+    Auto-populate food log entry with nutritional data
+    Show confirmation modal: "Is this [pizza]? Confirm to log."
+  If status == "unknown":
+    Show top-5 candidate list for manual selection
+  If status == "error":
+    Fall back to manual text search (existing flow)
+
+NODE.JS BACKEND CHANGES (backend/src/routes/)
+──────────────────────────────────────────────
+  Add new route file: backend/src/routes/foodRecognition.js
+    POST /api/food-recognition/predict
+      - Validate auth (Clerk middleware — already present)
+      - Forward image to FOOD_RECOGNITION_SERVICE_URL env variable
+      - Return response to mobile client
+
+  Add to .env:
+    FOOD_RECOGNITION_SERVICE_URL=https://food-recognition.up.railway.app
+
+REACT NATIVE CHANGES (meal_app/)
+──────────────────────────────────
+  1. Add expo-image-manipulator:
+       npx expo install expo-image-manipulator
+
+  2. In addfoodmodal.tsx, add a new handler for the food recognition path:
+     - After capturing image, compress it
+     - Call the backend endpoint
+     - Show loading state with ActivityIndicator
+     - Handle the 3 response states (success / unknown / error)
+
+  3. Add a new component: FoodRecognitionResultModal.tsx
+     - Displays predicted food name + confidence percentage
+     - Shows nutritional summary (cal / protein / carbs / fat)
+     - Confirm or Override buttons
+     - If "unknown": scrollable list of top-5 candidates
+
+PHASE 5 SUCCESS CRITERIA
+─────────────────────────
+  ✓ User can take a photo of pizza and it auto-populates the food log
+  ✓ Non-food photo (e.g. desk) shows "not recognized" fallback
+  ✓ End-to-end latency < 3 seconds on WiFi
+  ✓ Works on both iOS simulator and Android emulator
+
+
+================================================================================
+  7. PHASE 6 — PRODUCTION MONITORING & ACTIVE LEARNING
+================================================================================
+
+GOAL
+────
+  Build feedback mechanisms so the model improves from real user photos
+  over time, and detect when performance degrades.
+
+MONITORING (add to FastAPI service)
+─────────────────────────────────────
+  Log every prediction to PostgreSQL (your Neon DB via Railway backend):
+    Table: food_recognition_logs
+      id           UUID  PRIMARY KEY
+      user_id      TEXT  (from Clerk)
+      predicted    TEXT  (top-1 prediction label)
+      confidence   FLOAT
+      was_correct  BOOL  (set by user confirmation in app)
+      image_hash   TEXT  (SHA256 of image — for deduplication)
+      created_at   TIMESTAMP
+
+  Track these metrics weekly:
+    - Average confidence (rolling 7-day mean)
+    - Correction rate = (was_correct=false) / total predictions
+    - If correction rate > 15%, trigger retraining review
+
+ACTIVE LEARNING POOL
+─────────────────────
+  Store low-confidence predictions (confidence < 0.75) in an S3 bucket or
+  Railway volume for manual review:
+    - Every prediction with confidence < threshold is saved with its image
+    - Weekly: export these to a labeling queue
+    - Re-label incorrectly predicted images and add to Phase 2 training set
+
+DRIFT DETECTION
+───────────────
+  Every 1,000 predictions, compute:
+    - Distribution of predicted classes (should roughly match Food-101 distribution)
+    - Average confidence per class
+    - If any class confidence drops > 20% vs baseline, flag for review
+
+
+================================================================================
+  8. RESULTS FOLDER SCHEMA & CHART SPECIFICATION
+================================================================================
+
+You have 3 result folders. Here is the exact file schema to use consistently.
+
+training_result/
+────────────────
+  File: epoch_{N:03d}.json  (N = epoch number, zero-padded to 3 digits)
+  Example: epoch_001.json, epoch_002.json, ..., epoch_050.json
+
+  Schema:
+  {
+    "phase": 1,                  // or 2
+    "epoch": 1,
+    "loss": 1.4823,
+    "accuracy": 0.3241,
+    "top5_accuracy": 0.7812,     // relevant for 101-class only
+    "lr": 0.001,
+    "batch_size": 32,
+    "samples_seen": 3000,
+    "epoch_duration_seconds": 312,
+    "timestamp": "2026-04-29T14:23:01"
+  }
+
+validatation_result/             (note: keep your existing folder name with the typo)
+─────────────────────
+  File: epoch_{N:03d}.json  (same naming as training_result)
+
+  Schema:
+  {
+    "phase": 1,
+    "epoch": 1,
+    "val_loss": 1.1234,
+    "val_accuracy": 0.5612,
+    "val_top5_accuracy": 0.8934,
+    "is_best": false,            // true if this is the best val_accuracy so far
+    "timestamp": "2026-04-29T14:25:14"
+  }
+
+test_result/
+─────────────
+  File: phase{N}_test_results.json  (one file per phase, not per epoch)
+
+  Schema:
+  {
+    "phase": 1,
+    "model_architecture": "resnet18",
+    "num_classes": 5,
+    "test_accuracy": 0.8920,
+    "test_top5_accuracy": 0.9960,
+    "test_loss": 0.3412,
+    "total_test_samples": 1250,
+    "evaluated_at": "2026-04-29T16:00:00",
+    "per_class": {
+      "pizza": {
+        "precision": 0.91,
+        "recall": 0.93,
+        "f1": 0.92,
+        "support": 250,
+        "confused_with": ["flatbread", "calzone"]
+      }
+    }
+  }
+
+CHART OUTPUT SPECIFICATION
+───────────────────────────
+  All charts saved to: charts/output/
+  Format: PNG, 150 DPI, figure size 10×6 inches (standard matplotlib default)
+  Style: Use plt.style.use('seaborn-v0_8-darkgrid') for clean look
+
+  Chart files produced per phase:
+    phase{N}_loss_curve.png
+    phase{N}_accuracy_curve.png
+    phase{N}_lr_curve.png
+    phase{N}_per_class_f1.png       (bar chart for Phase 1, heatmap for Phase 2)
+    phase{N}_confusion_matrix.png   (Phase 2 only — top 20 most confused pairs)
+    phase{N}_top5_accuracy.png      (Phase 2 only)
+
+
+================================================================================
+  9. DEPENDENCIES & REQUIREMENTS REFERENCE
+================================================================================
+
+  food_recognition/requirements.txt
+  ───────────────────────────────────
+  # Core ML (install separately with CUDA URL — see Phase 1 Step 1)
+  torch>=2.1.0
+  torchvision>=0.16.0
+
+  # Data & training utilities
+  numpy>=1.24.0
+  Pillow>=10.0.0
+  scikit-learn>=1.3.0
+  tqdm>=4.65.0
+  matplotlib>=3.7.0
+  seaborn>=0.12.0
+
+  # API serving
+  fastapi>=0.110.0
+  uvicorn[standard]>=0.27.0
+  python-multipart>=0.0.9
+  pydantic>=2.5.0
+
+  # ONNX optimization (Phase 4)
+  onnx>=1.15.0
+  onnxruntime>=1.17.0
+
+  # HTTP client for FatSecret calls
+  httpx>=0.27.0
+
+  # Environment config
+  python-dotenv>=1.0.0
+
+
+================================================================================
+  10. DECISION LOG (Why We Chose X Over Y)
+================================================================================
+
+  ResNet-50 over VGG-19
+    VGG-19 is larger (~550 MB) with more parameters but similar accuracy.
+    ResNet-50 (~100 MB) is faster, trains faster, and deploys cheaper.
+
+  MobileNetV2 for deployment over ResNet-50
+    ResNet-50 CPU inference: ~200-400ms. MobileNetV2 CPU inference: ~50-150ms.
+    Railway has no GPU — latency matters. MobileNetV2 accuracy is comparable
+    on Food-101 and half the memory footprint.
+
+  ONNX over raw PyTorch for API serving
+    ONNX Runtime CPU inference is 2-4x faster than PyTorch CPU inference
+    with no accuracy loss. Worth the 10-minute export step.
+
+  Railway over AWS EC2 for model serving
+    Railway is already your platform. Adding a 3rd service costs zero extra
+    setup time. EC2 would cost $30+/month and require nginx/SSL setup manually.
+    Revisit when monthly active users exceed ~5,000.
+
+  Official Food-101 test split preserved
+    Using the official test.txt unchanged makes your accuracy numbers directly
+    comparable to published papers (e.g., ResNet-50 ~80% top-1, MobileNetV2 ~83%).
+    A custom split would make your numbers unverifiable against benchmarks.
+
+  Local RTX 4050 over Google Colab for training
+    You have a CUDA-capable GPU available at zero marginal cost.
+    Colab disconnects after 12 hours of inactivity. Local training with
+    checkpoints is more reliable for 15–33 hour training runs.
+    Use Colab only as a backup.
+
+================================================================================
+  END OF PLAN
+  Next action: Phase 1, Step 1 — set up the Python virtual environment
+               and verify CUDA is detected by PyTorch.
+================================================================================

@@ -1,0 +1,1118 @@
+{
+  "phase": 2,
+  "model_architecture": "resnet50",
+  "num_classes": 101,
+  "test_accuracy": 0.851248,
+  "test_top5_accuracy": 0.964436,
+  "total_test_samples": 25250,
+  "evaluated_at": "2026-05-02T17:34:20",
+  "per_class": {
+    "apple_pie": {
+      "precision": 0.6944,
+      "recall": 0.7,
+      "f1": 0.6972,
+      "support": 250,
+      "confused_with": [
+        "bread_pudding",
+        "baklava",
+        "french_toast"
+      ]
+    },
+    "baby_back_ribs": {
+      "precision": 0.8694,
+      "recall": 0.772,
+      "f1": 0.8178,
+      "support": 250,
+      "confused_with": [
+        "steak",
+        "pork_chop",
+        "prime_rib"
+      ]
+    },
+    "baklava": {
+      "precision": 0.9292,
+      "recall": 0.892,
+      "f1": 0.9102,
+      "support": 250,
+      "confused_with": [
+        "apple_pie",
+        "foie_gras",
+        "carrot_cake"
+      ]
+    },
+    "beef_carpaccio": {
+      "precision": 0.8369,
+      "recall": 0.944,
+      "f1": 0.8872,
+      "support": 250,
+      "confused_with": [
+        "beet_salad",
+        "tuna_tartare",
+        "spaghetti_carbonara"
+      ]
+    },
+    "beef_tartare": {
+      "precision": 0.7899,
+      "recall": 0.872,
+      "f1": 0.8289,
+      "support": 250,
+      "confused_with": [
+        "tuna_tartare",
+        "beet_salad",
+        "gnocchi"
+      ]
+    },
+    "beet_salad": {
+      "precision": 0.8348,
+      "recall": 0.748,
+      "f1": 0.789,
+      "support": 250,
+      "confused_with": [
+        "greek_salad",
+        "caprese_salad",
+        "beef_carpaccio"
+      ]
+    },
+    "beignets": {
+      "precision": 0.8571,
+      "recall": 0.936,
+      "f1": 0.8948,
+      "support": 250,
+      "confused_with": [
+        "pancakes",
+        "bread_pudding",
+        "donuts"
+      ]
+    },
+    "bibimbap": {
+      "precision": 0.9431,
+      "recall": 0.928,
+      "f1": 0.9355,
+      "support": 250,
+      "confused_with": [
+        "fried_rice",
+        "gnocchi",
+        "seaweed_salad"
+      ]
+    },
+    "bread_pudding": {
+      "precision": 0.6872,
+      "recall": 0.668,
+      "f1": 0.6775,
+      "support": 250,
+      "confused_with": [
+        "apple_pie",
+        "french_toast",
+        "cheesecake"
+      ]
+    },
+    "breakfast_burrito": {
+      "precision": 0.85,
+      "recall": 0.748,
+      "f1": 0.7957,
+      "support": 250,
+      "confused_with": [
+        "tacos",
+        "huevos_rancheros",
+        "falafel"
+      ]
+    },
+    "bruschetta": {
+      "precision": 0.8293,
+      "recall": 0.816,
+      "f1": 0.8226,
+      "support": 250,
+      "confused_with": [
+        "caprese_salad",
+        "beef_carpaccio",
+        "tuna_tartare"
+      ]
+    },
+    "caesar_salad": {
+      "precision": 0.8244,
+      "recall": 0.92,
+      "f1": 0.8696,
+      "support": 250,
+      "confused_with": [
+        "greek_salad",
+        "lasagna",
+        "omelette"
+      ]
+    },
+    "cannoli": {
+      "precision": 0.9216,
+      "recall": 0.94,
+      "f1": 0.9307,
+      "support": 250,
+      "confused_with": [
+        "beignets",
+        "apple_pie",
+        "chocolate_cake"
+      ]
+    },
+    "caprese_salad": {
+      "precision": 0.8282,
+      "recall": 0.868,
+      "f1": 0.8477,
+      "support": 250,
+      "confused_with": [
+        "bruschetta",
+        "greek_salad",
+        "beef_carpaccio"
+      ]
+    },
+    "carrot_cake": {
+      "precision": 0.8307,
+      "recall": 0.844,
+      "f1": 0.8373,
+      "support": 250,
+      "confused_with": [
+        "chocolate_cake",
+        "strawberry_shortcake",
+        "red_velvet_cake"
+      ]
+    },
+    "ceviche": {
+      "precision": 0.8386,
+      "recall": 0.748,
+      "f1": 0.7907,
+      "support": 250,
+      "confused_with": [
+        "tuna_tartare",
+        "gnocchi",
+        "chicken_curry"
+      ]
+    },
+    "cheese_plate": {
+      "precision": 0.8949,
+      "recall": 0.92,
+      "f1": 0.9073,
+      "support": 250,
+      "confused_with": [
+        "cheesecake",
+        "greek_salad",
+        "hummus"
+      ]
+    },
+    "cheesecake": {
+      "precision": 0.8117,
+      "recall": 0.724,
+      "f1": 0.7653,
+      "support": 250,
+      "confused_with": [
+        "strawberry_shortcake",
+        "panna_cotta",
+        "chocolate_mousse"
+      ]
+    },
+    "chicken_curry": {
+      "precision": 0.7918,
+      "recall": 0.776,
+      "f1": 0.7838,
+      "support": 250,
+      "confused_with": [
+        "lobster_bisque",
+        "gnocchi",
+        "shrimp_and_grits"
+      ]
+    },
+    "chicken_quesadilla": {
+      "precision": 0.8525,
+      "recall": 0.832,
+      "f1": 0.8421,
+      "support": 250,
+      "confused_with": [
+        "tacos",
+        "breakfast_burrito",
+        "ceviche"
+      ]
+    },
+    "chicken_wings": {
+      "precision": 0.8667,
+      "recall": 0.936,
+      "f1": 0.9,
+      "support": 250,
+      "confused_with": [
+        "fried_calamari",
+        "baby_back_ribs",
+        "ravioli"
+      ]
+    },
+    "chocolate_cake": {
+      "precision": 0.7418,
+      "recall": 0.724,
+      "f1": 0.7328,
+      "support": 250,
+      "confused_with": [
+        "chocolate_mousse",
+        "red_velvet_cake",
+        "tiramisu"
+      ]
+    },
+    "chocolate_mousse": {
+      "precision": 0.6527,
+      "recall": 0.684,
+      "f1": 0.668,
+      "support": 250,
+      "confused_with": [
+        "chocolate_cake",
+        "tiramisu",
+        "ice_cream"
+      ]
+    },
+    "churros": {
+      "precision": 0.9582,
+      "recall": 0.916,
+      "f1": 0.9366,
+      "support": 250,
+      "confused_with": [
+        "donuts",
+        "beignets",
+        "hot_dog"
+      ]
+    },
+    "clam_chowder": {
+      "precision": 0.8933,
+      "recall": 0.904,
+      "f1": 0.8986,
+      "support": 250,
+      "confused_with": [
+        "lobster_bisque",
+        "chicken_curry",
+        "ravioli"
+      ]
+    },
+    "club_sandwich": {
+      "precision": 0.8764,
+      "recall": 0.908,
+      "f1": 0.8919,
+      "support": 250,
+      "confused_with": [
+        "grilled_cheese_sandwich",
+        "pulled_pork_sandwich",
+        "hot_dog"
+      ]
+    },
+    "crab_cakes": {
+      "precision": 0.7913,
+      "recall": 0.728,
+      "f1": 0.7583,
+      "support": 250,
+      "confused_with": [
+        "falafel",
+        "scallops",
+        "grilled_salmon"
+      ]
+    },
+    "creme_brulee": {
+      "precision": 0.8953,
+      "recall": 0.924,
+      "f1": 0.9094,
+      "support": 250,
+      "confused_with": [
+        "panna_cotta",
+        "lobster_bisque",
+        "french_onion_soup"
+      ]
+    },
+    "croque_madame": {
+      "precision": 0.9065,
+      "recall": 0.892,
+      "f1": 0.8992,
+      "support": 250,
+      "confused_with": [
+        "eggs_benedict",
+        "grilled_cheese_sandwich",
+        "lasagna"
+      ]
+    },
+    "cup_cakes": {
+      "precision": 0.8964,
+      "recall": 0.9,
+      "f1": 0.8982,
+      "support": 250,
+      "confused_with": [
+        "chocolate_mousse",
+        "red_velvet_cake",
+        "donuts"
+      ]
+    },
+    "deviled_eggs": {
+      "precision": 0.93,
+      "recall": 0.956,
+      "f1": 0.9428,
+      "support": 250,
+      "confused_with": [
+        "cup_cakes",
+        "huevos_rancheros",
+        "hummus"
+      ]
+    },
+    "donuts": {
+      "precision": 0.868,
+      "recall": 0.868,
+      "f1": 0.868,
+      "support": 250,
+      "confused_with": [
+        "beignets",
+        "cup_cakes",
+        "carrot_cake"
+      ]
+    },
+    "dumplings": {
+      "precision": 0.9342,
+      "recall": 0.908,
+      "f1": 0.9209,
+      "support": 250,
+      "confused_with": [
+        "gyoza",
+        "scallops",
+        "ravioli"
+      ]
+    },
+    "edamame": {
+      "precision": 0.9921,
+      "recall": 1.0,
+      "f1": 0.996,
+      "support": 250,
+      "confused_with": []
+    },
+    "eggs_benedict": {
+      "precision": 0.9051,
+      "recall": 0.916,
+      "f1": 0.9105,
+      "support": 250,
+      "confused_with": [
+        "croque_madame",
+        "grilled_cheese_sandwich",
+        "omelette"
+      ]
+    },
+    "escargots": {
+      "precision": 0.9153,
+      "recall": 0.908,
+      "f1": 0.9116,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "french_onion_soup",
+        "scallops"
+      ]
+    },
+    "falafel": {
+      "precision": 0.7885,
+      "recall": 0.82,
+      "f1": 0.8039,
+      "support": 250,
+      "confused_with": [
+        "crab_cakes",
+        "chicken_wings",
+        "hamburger"
+      ]
+    },
+    "filet_mignon": {
+      "precision": 0.7148,
+      "recall": 0.732,
+      "f1": 0.7233,
+      "support": 250,
+      "confused_with": [
+        "steak",
+        "prime_rib",
+        "pork_chop"
+      ]
+    },
+    "fish_and_chips": {
+      "precision": 0.9277,
+      "recall": 0.872,
+      "f1": 0.899,
+      "support": 250,
+      "confused_with": [
+        "french_fries",
+        "fried_calamari",
+        "chicken_wings"
+      ]
+    },
+    "foie_gras": {
+      "precision": 0.7489,
+      "recall": 0.656,
+      "f1": 0.6994,
+      "support": 250,
+      "confused_with": [
+        "cheese_plate",
+        "beet_salad",
+        "steak"
+      ]
+    },
+    "french_fries": {
+      "precision": 0.8546,
+      "recall": 0.964,
+      "f1": 0.906,
+      "support": 250,
+      "confused_with": [
+        "poutine",
+        "cheese_plate",
+        "spaghetti_carbonara"
+      ]
+    },
+    "french_onion_soup": {
+      "precision": 0.9053,
+      "recall": 0.88,
+      "f1": 0.8925,
+      "support": 250,
+      "confused_with": [
+        "escargots",
+        "hot_and_sour_soup",
+        "creme_brulee"
+      ]
+    },
+    "french_toast": {
+      "precision": 0.7795,
+      "recall": 0.82,
+      "f1": 0.7992,
+      "support": 250,
+      "confused_with": [
+        "bread_pudding",
+        "apple_pie",
+        "garlic_bread"
+      ]
+    },
+    "fried_calamari": {
+      "precision": 0.8606,
+      "recall": 0.864,
+      "f1": 0.8623,
+      "support": 250,
+      "confused_with": [
+        "onion_rings",
+        "chicken_wings",
+        "fish_and_chips"
+      ]
+    },
+    "fried_rice": {
+      "precision": 0.8561,
+      "recall": 0.904,
+      "f1": 0.8794,
+      "support": 250,
+      "confused_with": [
+        "paella",
+        "shrimp_and_grits",
+        "risotto"
+      ]
+    },
+    "frozen_yogurt": {
+      "precision": 0.9055,
+      "recall": 0.92,
+      "f1": 0.9127,
+      "support": 250,
+      "confused_with": [
+        "ice_cream",
+        "strawberry_shortcake",
+        "panna_cotta"
+      ]
+    },
+    "garlic_bread": {
+      "precision": 0.8123,
+      "recall": 0.848,
+      "f1": 0.8297,
+      "support": 250,
+      "confused_with": [
+        "grilled_cheese_sandwich",
+        "baklava",
+        "pizza"
+      ]
+    },
+    "gnocchi": {
+      "precision": 0.7076,
+      "recall": 0.784,
+      "f1": 0.7438,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "shrimp_and_grits",
+        "scallops"
+      ]
+    },
+    "greek_salad": {
+      "precision": 0.8403,
+      "recall": 0.884,
+      "f1": 0.8616,
+      "support": 250,
+      "confused_with": [
+        "caesar_salad",
+        "beet_salad",
+        "caprese_salad"
+      ]
+    },
+    "grilled_cheese_sandwich": {
+      "precision": 0.7976,
+      "recall": 0.804,
+      "f1": 0.8008,
+      "support": 250,
+      "confused_with": [
+        "club_sandwich",
+        "garlic_bread",
+        "french_toast"
+      ]
+    },
+    "grilled_salmon": {
+      "precision": 0.817,
+      "recall": 0.768,
+      "f1": 0.7918,
+      "support": 250,
+      "confused_with": [
+        "pork_chop",
+        "bruschetta",
+        "filet_mignon"
+      ]
+    },
+    "guacamole": {
+      "precision": 0.917,
+      "recall": 0.928,
+      "f1": 0.9225,
+      "support": 250,
+      "confused_with": [
+        "nachos",
+        "ceviche",
+        "risotto"
+      ]
+    },
+    "gyoza": {
+      "precision": 0.8755,
+      "recall": 0.9,
+      "f1": 0.8876,
+      "support": 250,
+      "confused_with": [
+        "dumplings",
+        "spring_rolls",
+        "gnocchi"
+      ]
+    },
+    "hamburger": {
+      "precision": 0.8718,
+      "recall": 0.816,
+      "f1": 0.843,
+      "support": 250,
+      "confused_with": [
+        "pulled_pork_sandwich",
+        "club_sandwich",
+        "hot_dog"
+      ]
+    },
+    "hot_and_sour_soup": {
+      "precision": 0.903,
+      "recall": 0.968,
+      "f1": 0.9344,
+      "support": 250,
+      "confused_with": [
+        "french_onion_soup",
+        "pho",
+        "nachos"
+      ]
+    },
+    "hot_dog": {
+      "precision": 0.8635,
+      "recall": 0.86,
+      "f1": 0.8617,
+      "support": 250,
+      "confused_with": [
+        "pulled_pork_sandwich",
+        "french_fries",
+        "hamburger"
+      ]
+    },
+    "huevos_rancheros": {
+      "precision": 0.7843,
+      "recall": 0.64,
+      "f1": 0.7048,
+      "support": 250,
+      "confused_with": [
+        "nachos",
+        "chicken_curry",
+        "omelette"
+      ]
+    },
+    "hummus": {
+      "precision": 0.8333,
+      "recall": 0.84,
+      "f1": 0.8367,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "guacamole",
+        "ramen"
+      ]
+    },
+    "ice_cream": {
+      "precision": 0.824,
+      "recall": 0.768,
+      "f1": 0.795,
+      "support": 250,
+      "confused_with": [
+        "frozen_yogurt",
+        "chocolate_mousse",
+        "apple_pie"
+      ]
+    },
+    "lasagna": {
+      "precision": 0.7824,
+      "recall": 0.748,
+      "f1": 0.7648,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "pizza",
+        "chicken_quesadilla"
+      ]
+    },
+    "lobster_bisque": {
+      "precision": 0.8605,
+      "recall": 0.888,
+      "f1": 0.874,
+      "support": 250,
+      "confused_with": [
+        "clam_chowder",
+        "french_onion_soup",
+        "chocolate_mousse"
+      ]
+    },
+    "lobster_roll_sandwich": {
+      "precision": 0.9213,
+      "recall": 0.936,
+      "f1": 0.9286,
+      "support": 250,
+      "confused_with": [
+        "pulled_pork_sandwich",
+        "pizza",
+        "hamburger"
+      ]
+    },
+    "macaroni_and_cheese": {
+      "precision": 0.8957,
+      "recall": 0.824,
+      "f1": 0.8583,
+      "support": 250,
+      "confused_with": [
+        "french_onion_soup",
+        "risotto",
+        "gnocchi"
+      ]
+    },
+    "macarons": {
+      "precision": 0.9917,
+      "recall": 0.952,
+      "f1": 0.9714,
+      "support": 250,
+      "confused_with": [
+        "cup_cakes",
+        "falafel",
+        "chocolate_mousse"
+      ]
+    },
+    "miso_soup": {
+      "precision": 0.9435,
+      "recall": 0.936,
+      "f1": 0.9398,
+      "support": 250,
+      "confused_with": [
+        "hot_and_sour_soup",
+        "ramen",
+        "fried_rice"
+      ]
+    },
+    "mussels": {
+      "precision": 0.9514,
+      "recall": 0.94,
+      "f1": 0.9457,
+      "support": 250,
+      "confused_with": [
+        "gnocchi",
+        "oysters",
+        "sushi"
+      ]
+    },
+    "nachos": {
+      "precision": 0.843,
+      "recall": 0.816,
+      "f1": 0.8293,
+      "support": 250,
+      "confused_with": [
+        "tacos",
+        "huevos_rancheros",
+        "caesar_salad"
+      ]
+    },
+    "omelette": {
+      "precision": 0.8139,
+      "recall": 0.752,
+      "f1": 0.7817,
+      "support": 250,
+      "confused_with": [
+        "huevos_rancheros",
+        "lasagna",
+        "eggs_benedict"
+      ]
+    },
+    "onion_rings": {
+      "precision": 0.8976,
+      "recall": 0.912,
+      "f1": 0.9048,
+      "support": 250,
+      "confused_with": [
+        "fried_calamari",
+        "hot_dog",
+        "churros"
+      ]
+    },
+    "oysters": {
+      "precision": 0.9759,
+      "recall": 0.972,
+      "f1": 0.9739,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "pancakes",
+        "crab_cakes"
+      ]
+    },
+    "pad_thai": {
+      "precision": 0.9266,
+      "recall": 0.96,
+      "f1": 0.943,
+      "support": 250,
+      "confused_with": [
+        "fried_rice",
+        "chicken_curry",
+        "ceviche"
+      ]
+    },
+    "paella": {
+      "precision": 0.9056,
+      "recall": 0.844,
+      "f1": 0.8737,
+      "support": 250,
+      "confused_with": [
+        "mussels",
+        "risotto",
+        "shrimp_and_grits"
+      ]
+    },
+    "pancakes": {
+      "precision": 0.8803,
+      "recall": 0.912,
+      "f1": 0.8959,
+      "support": 250,
+      "confused_with": [
+        "french_toast",
+        "bread_pudding",
+        "cheesecake"
+      ]
+    },
+    "panna_cotta": {
+      "precision": 0.7734,
+      "recall": 0.792,
+      "f1": 0.7826,
+      "support": 250,
+      "confused_with": [
+        "chocolate_mousse",
+        "strawberry_shortcake",
+        "cheesecake"
+      ]
+    },
+    "peking_duck": {
+      "precision": 0.937,
+      "recall": 0.892,
+      "f1": 0.9139,
+      "support": 250,
+      "confused_with": [
+        "tacos",
+        "pulled_pork_sandwich",
+        "pho"
+      ]
+    },
+    "pho": {
+      "precision": 0.9341,
+      "recall": 0.964,
+      "f1": 0.9488,
+      "support": 250,
+      "confused_with": [
+        "ramen",
+        "chicken_curry",
+        "tiramisu"
+      ]
+    },
+    "pizza": {
+      "precision": 0.8642,
+      "recall": 0.916,
+      "f1": 0.8893,
+      "support": 250,
+      "confused_with": [
+        "lasagna",
+        "garlic_bread",
+        "nachos"
+      ]
+    },
+    "pork_chop": {
+      "precision": 0.6723,
+      "recall": 0.64,
+      "f1": 0.6557,
+      "support": 250,
+      "confused_with": [
+        "steak",
+        "grilled_salmon",
+        "filet_mignon"
+      ]
+    },
+    "poutine": {
+      "precision": 0.9277,
+      "recall": 0.872,
+      "f1": 0.899,
+      "support": 250,
+      "confused_with": [
+        "french_fries",
+        "gnocchi",
+        "steak"
+      ]
+    },
+    "prime_rib": {
+      "precision": 0.8,
+      "recall": 0.848,
+      "f1": 0.8233,
+      "support": 250,
+      "confused_with": [
+        "steak",
+        "filet_mignon",
+        "pork_chop"
+      ]
+    },
+    "pulled_pork_sandwich": {
+      "precision": 0.7985,
+      "recall": 0.872,
+      "f1": 0.8337,
+      "support": 250,
+      "confused_with": [
+        "hamburger",
+        "club_sandwich",
+        "grilled_cheese_sandwich"
+      ]
+    },
+    "ramen": {
+      "precision": 0.9264,
+      "recall": 0.856,
+      "f1": 0.8898,
+      "support": 250,
+      "confused_with": [
+        "pho",
+        "hot_and_sour_soup",
+        "spaghetti_carbonara"
+      ]
+    },
+    "ravioli": {
+      "precision": 0.6259,
+      "recall": 0.676,
+      "f1": 0.65,
+      "support": 250,
+      "confused_with": [
+        "gnocchi",
+        "lasagna",
+        "chicken_curry"
+      ]
+    },
+    "red_velvet_cake": {
+      "precision": 0.8679,
+      "recall": 0.92,
+      "f1": 0.8932,
+      "support": 250,
+      "confused_with": [
+        "cup_cakes",
+        "strawberry_shortcake",
+        "chocolate_cake"
+      ]
+    },
+    "risotto": {
+      "precision": 0.807,
+      "recall": 0.736,
+      "f1": 0.7699,
+      "support": 250,
+      "confused_with": [
+        "fried_rice",
+        "gnocchi",
+        "shrimp_and_grits"
+      ]
+    },
+    "samosa": {
+      "precision": 0.9083,
+      "recall": 0.872,
+      "f1": 0.8898,
+      "support": 250,
+      "confused_with": [
+        "spring_rolls",
+        "baklava",
+        "crab_cakes"
+      ]
+    },
+    "sashimi": {
+      "precision": 0.9429,
+      "recall": 0.924,
+      "f1": 0.9333,
+      "support": 250,
+      "confused_with": [
+        "sushi",
+        "grilled_salmon",
+        "fish_and_chips"
+      ]
+    },
+    "scallops": {
+      "precision": 0.761,
+      "recall": 0.764,
+      "f1": 0.7625,
+      "support": 250,
+      "confused_with": [
+        "foie_gras",
+        "shrimp_and_grits",
+        "deviled_eggs"
+      ]
+    },
+    "seaweed_salad": {
+      "precision": 0.9482,
+      "recall": 0.952,
+      "f1": 0.9501,
+      "support": 250,
+      "confused_with": [
+        "tuna_tartare",
+        "beet_salad",
+        "guacamole"
+      ]
+    },
+    "shrimp_and_grits": {
+      "precision": 0.793,
+      "recall": 0.812,
+      "f1": 0.8024,
+      "support": 250,
+      "confused_with": [
+        "ravioli",
+        "gnocchi",
+        "scallops"
+      ]
+    },
+    "spaghetti_bolognese": {
+      "precision": 0.9243,
+      "recall": 0.928,
+      "f1": 0.9261,
+      "support": 250,
+      "confused_with": [
+        "spaghetti_carbonara",
+        "lasagna",
+        "carrot_cake"
+      ]
+    },
+    "spaghetti_carbonara": {
+      "precision": 0.8922,
+      "recall": 0.96,
+      "f1": 0.9249,
+      "support": 250,
+      "confused_with": [
+        "macaroni_and_cheese",
+        "french_fries",
+        "ravioli"
+      ]
+    },
+    "spring_rolls": {
+      "precision": 0.9012,
+      "recall": 0.876,
+      "f1": 0.8884,
+      "support": 250,
+      "confused_with": [
+        "samosa",
+        "chicken_quesadilla",
+        "bruschetta"
+      ]
+    },
+    "steak": {
+      "precision": 0.5659,
+      "recall": 0.584,
+      "f1": 0.5748,
+      "support": 250,
+      "confused_with": [
+        "filet_mignon",
+        "prime_rib",
+        "pork_chop"
+      ]
+    },
+    "strawberry_shortcake": {
+      "precision": 0.822,
+      "recall": 0.868,
+      "f1": 0.8444,
+      "support": 250,
+      "confused_with": [
+        "cheesecake",
+        "waffles",
+        "ice_cream"
+      ]
+    },
+    "sushi": {
+      "precision": 0.9197,
+      "recall": 0.916,
+      "f1": 0.9178,
+      "support": 250,
+      "confused_with": [
+        "sashimi",
+        "tacos",
+        "spring_rolls"
+      ]
+    },
+    "tacos": {
+      "precision": 0.7811,
+      "recall": 0.828,
+      "f1": 0.8039,
+      "support": 250,
+      "confused_with": [
+        "chicken_quesadilla",
+        "falafel",
+        "nachos"
+      ]
+    },
+    "takoyaki": {
+      "precision": 0.9385,
+      "recall": 0.916,
+      "f1": 0.9271,
+      "support": 250,
+      "confused_with": [
+        "beignets",
+        "tacos",
+        "seaweed_salad"
+      ]
+    },
+    "tiramisu": {
+      "precision": 0.7863,
+      "recall": 0.824,
+      "f1": 0.8047,
+      "support": 250,
+      "confused_with": [
+        "chocolate_mousse",
+        "chocolate_cake",
+        "cheesecake"
+      ]
+    },
+    "tuna_tartare": {
+      "precision": 0.7839,
+      "recall": 0.74,
+      "f1": 0.7613,
+      "support": 250,
+      "confused_with": [
+        "beef_tartare",
+        "caprese_salad",
+        "beef_carpaccio"
+      ]
+    },
+    "waffles": {
+      "precision": 0.9098,
+      "recall": 0.928,
+      "f1": 0.9188,
+      "support": 250,
+      "confused_with": [
+        "french_toast",
+        "pancakes",
+        "cannoli"
+      ]
+    }
+  }
+}
