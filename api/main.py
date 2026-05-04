@@ -29,7 +29,7 @@ from api.schemas import (
 )
 from api.predictor import get_predictor
 from api.ood_detector import detect_ood
-from api.fatsecret_client import get_fatsecret_client
+from api.usda_client import get_usda_client
 from api.feedback_store import save_feedback
 
 logging.basicConfig(level=logging.INFO)
@@ -94,10 +94,10 @@ async def predict(file: UploadFile = File(...)):
     top_class, top_conf = results[0]
     is_ood, ood_msg = detect_ood(top_class, top_conf)
 
-    fatsecret = get_fatsecret_client()
+    usda = get_usda_client()
 
     # Fetch nutrition for top prediction only (avoid 5 API calls per request)
-    nutrition = await fatsecret.get_nutrition_for_class(top_class)
+    nutrition = await usda.get_nutrition_for_class(top_class)
 
     top = FoodCandidate(
         class_name=top_class,

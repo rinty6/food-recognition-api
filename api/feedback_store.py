@@ -57,6 +57,6 @@ def save_feedback(predicted_class: str, correct_class: str, image_bytes: bytes |
     try:
         with _LOG_FILE.open("a", encoding="utf-8") as f:
             f.write(json.dumps(record) + "\n")
-        logger.info(f"Feedback saved: {predicted_class!r} → {correct_class!r}")
+        logger.info(f"Feedback saved: {predicted_class!r} -> {correct_class!r}")
     except OSError as e:
         logger.warning(f"Could not write feedback log: {e}")
