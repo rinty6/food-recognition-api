@@ -3,6 +3,7 @@ FastAPI application for food recognition.
 
 Endpoints:
   POST /predict   — Upload an image, get top-5 food predictions + nutrition
+  POST /feedback  — Submit a correction (predicted vs correct class + optional image)
   GET  /health    — Liveness/readiness check
   GET  /classes   — List all 101 supported food classes
 
@@ -17,7 +18,8 @@ import os
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, Form, UploadFile, HTTPException
+from typing import Optional
 from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
 
@@ -28,6 +30,7 @@ from api.schemas import (
 from api.predictor import get_predictor
 from api.ood_detector import detect_ood
 from api.fatsecret_client import get_fatsecret_client
+from api.feedback_store import save_feedback
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -118,6 +121,16 @@ async def predict(file: UploadFile = File(...)):
         ood_detected=is_ood,
         ood_message=ood_msg,
     )
+
+
+@app.post("/feedback", status_code=204)
+async def feedback(
+    predicted_class: str = Form(...),
+    correct_class: str = Form(...),
+    file: Optional[UploadFile] = File(None),
+):
+    image_bytes = await file.read() if file else None
+    save_feedback(predicted_class, correct_class, image_bytes)
 
 
 @app.get("/health", response_model=HealthResponse)
