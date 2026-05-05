@@ -17,9 +17,9 @@ from PIL import Image
 
 BASE_DIR = Path(__file__).parent.parent
 
-ONNX_MODEL_PATH  = BASE_DIR / "models" / "checkpoints" / "resnet50_food101.onnx"
-PYTORCH_CKPT     = BASE_DIR / "models" / "checkpoints" / "phase2_resnet50_stagec_best.pth"
-CLASSES_JSON     = BASE_DIR / "data" / "splits" / "food101_classes.json"
+ONNX_MODEL_PATH  = BASE_DIR / "models" / "checkpoints" / "resnet50_extended.onnx"
+PYTORCH_CKPT     = BASE_DIR / "models" / "checkpoints" / "phase3_resnet50_best.pth"
+CLASSES_JSON     = BASE_DIR / "data" / "splits" / "phase3_classes.json"
 
 IMAGENET_MEAN = np.array([0.485, 0.456, 0.406], dtype=np.float32)
 IMAGENET_STD  = np.array([0.229, 0.224, 0.225], dtype=np.float32)
@@ -84,7 +84,7 @@ class Predictor:
         import sys
         sys.path.insert(0, str(BASE_DIR))
         import torch
-        from models.resnet50_food101 import build_model
+        from models.resnet50_extended import build_model
         from train.utils import load_checkpoint
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
