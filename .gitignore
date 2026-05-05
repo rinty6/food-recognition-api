@@ -6,4 +6,3 @@ data/food-101/
 data/fruits-360/
 data/vegetables/
 models/checkpoints/*.pth
-models/checkpoints/*.onnx.data
