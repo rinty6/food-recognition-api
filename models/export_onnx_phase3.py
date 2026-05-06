@@ -46,7 +46,7 @@ def main(checkpoint_path: str):
         model,
         dummy_input,
         str(OUTPUT_PATH),
-        opset_version=17,
+        opset_version=18,
         input_names=["image"],
         output_names=["logits"],
         dynamic_axes={"image": {0: "batch_size"}, "logits": {0: "batch_size"}},

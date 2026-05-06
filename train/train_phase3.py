@@ -34,7 +34,7 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from torch.cuda.amp import GradScaler, autocast
+from torch.amp import GradScaler, autocast
 
 BASE_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BASE_DIR))
@@ -86,7 +86,7 @@ def train_one_epoch(model, loader, criterion, optimizer, scaler, device):
         images, targets = images.to(device), targets.to(device)
         optimizer.zero_grad()
 
-        with autocast():
+        with autocast("cuda"):
             logits = model(images)
             loss = criterion(logits, targets)
 
@@ -116,7 +116,7 @@ def validate(model, loader, criterion, device):
     with torch.no_grad():
         for images, targets in loader:
             images, targets = images.to(device), targets.to(device)
-            with autocast():
+            with autocast("cuda"):
                 logits = model(images)
                 loss = criterion(logits, targets)
             top1, top5 = compute_accuracy(logits, targets, topk=(1, 5))
@@ -213,7 +213,7 @@ def main(resume_path: str | None = None):
     print(f"  Stage B ({STAGE_A_END+1}–{STAGE_B_END})  : + layer4")
     print(f"  Stage C ({STAGE_B_END+1}–{TOTAL_EPOCHS})  : + layer3, label smoothing\n")
 
-    scaler       = GradScaler()
+    scaler        = GradScaler("cuda")
     early_stopper = EarlyStopping(patience=ES_PATIENCE)
     criterion     = criterion_hard
 
@@ -225,6 +225,7 @@ def main(resume_path: str | None = None):
             optimizer, scheduler = build_optimizer_and_scheduler(
                 model, BASE_LR, TOTAL_EPOCHS - epoch + 1
             )
+            early_stopper = EarlyStopping(patience=ES_PATIENCE)  # reset: new stage, new loss scale
             current_stage = "B"
 
         if epoch == STAGE_B_END + 1 and current_stage == "B":
@@ -233,6 +234,7 @@ def main(resume_path: str | None = None):
                 model, BASE_LR, TOTAL_EPOCHS - epoch + 1
             )
             criterion = criterion_smooth
+            early_stopper = EarlyStopping(patience=ES_PATIENCE)  # reset: label smoothing inflates loss
             current_stage = "C"
 
         current_lr = optimizer.param_groups[0]["lr"]

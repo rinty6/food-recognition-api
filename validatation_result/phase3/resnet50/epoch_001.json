@@ -1,9 +1,9 @@
 {
   "phase": 3,
   "epoch": 1,
-  "val_loss": 0.474173,
-  "val_accuracy": 0.897192,
-  "val_top5_accuracy": 0.96694,
+  "val_loss": 0.572358,
+  "val_accuracy": 0.851674,
+  "val_top5_accuracy": 0.964219,
   "is_best": true,
-  "timestamp": "2026-05-05T22:46:03"
+  "timestamp": "2026-05-06T10:18:25"
 }
