@@ -27,8 +27,8 @@ load_dotenv(find_dotenv(usecwd=False, raise_error_if_not_found=False))
 
 logger = logging.getLogger(__name__)
 
-TOKEN_URL  = "https://oauth.fatsecret.com/connect/token"
-API_URL    = "https://platform.fatsecret.com/rest/server.api"
+TOKEN_URL  = "https://goodhealthmate-fs.fly.dev/connect/token"
+API_URL    = "https://goodhealthmate-fs.fly.dev/rest/server.api"
 CACHE_TTL  = 86_400  # 24 hours in seconds
 
 # Food-101 class names use underscores; FatSecret searches better with spaces
