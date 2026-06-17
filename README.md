@@ -2,8 +2,6 @@
 
 This folder contains the Python / FastAPI food recognition service used by GoodHealthMate. It receives a food image from the app flow, runs a ResNet-50 image classifier, returns the top food prediction with alternatives, and enriches the top result with nutrition data where available.
 
-The deeper architecture explainer lives in [ARCHITECTURE.html](ARCHITECTURE.html). This README is the quick developer-facing version for GitHub.
-
 ## Food Recognition Flow
 
 The mobile app should call the main Node / Express backend first. The backend then proxies the request to this FastAPI service with a server-side token, so the recognition service is not exposed directly to the app client.
